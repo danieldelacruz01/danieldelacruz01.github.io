@@ -10,15 +10,15 @@ div {
 }
 
 a {
-    color: #FF4081;
+    color: white;
 }
 
 a:visited {
-    color: #FF4081;
+    color: white;
 }
 
 a:hover {
-    color: white;
+    color: #FF4081;
 }
 
 p, h1, h2, h3, h4 {
@@ -52,6 +52,7 @@ li a {
 
 li a:hover {
     background-color: #455A64;
+    color: white;
 }
 
 .active {

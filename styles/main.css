@@ -15,7 +15,7 @@ a {
 
 p, h1, h2, h3, h4 {
     font-family: Tahoma, Geneva, sans-serif;
-    padding-left: 30px; padding-right: 30px;
+    padding-left: 50px; padding-right: 50px;
     color: white;
 }
 
@@ -49,4 +49,8 @@ li a:hover {
 .active {
     background-color: #FF4081;
 
+}
+
+html {
+    overflow-y: scroll;
 }

@@ -9,16 +9,16 @@ div {
   background-color: #37474F;
 }
 
-a:link {
-    color: white;
+a: {
+    color: #FF4081;
 }
 
 a:visited {
-    color: white;
+    color: #FF4081;
 }
 
 a:hover {
-    color: #FF4081;
+    color: white;
 }
 
 p, h1, h2, h3, h4 {

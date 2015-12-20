@@ -1,0 +1,197 @@
+/*Site styles* =================================*/
+
+*{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+}
+
+.band.header{
+  padding: 50px 0 0 0;
+}
+
+.band.main{
+  padding: 30px 0;
+}
+
+/*Font styles*/
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.mine h1{
+  font-weight: 600;
+}
+
+.mine a, a:active, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.mine a:hover {
+    color: #FF4081;
+}
+
+.blog h1{
+  font-weight: 400;
+}
+
+.blog a{
+  color: black;
+  text-decoration: underline;
+}
+
+/*Navigation*/
+
+
+.band.navigation {
+  background-color: #263238;
+  color: white;
+  box-shadow: 0px 10px 50px grey;
+}
+
+
+.nav li {
+  display: inline;
+  float: left;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: #455A64;
+    color: red;
+}
+
+.active a {
+  color: #FF4081;
+/*  background-color: red;*/
+}
+
+/*Band footer*/
+
+.band.footer {
+  background-color: #263238;
+  color: white;
+  padding: 30px 0 250px 0;
+}
+
+/*Page styles* =================================*/
+
+#profilepic {
+/*  display: block;
+  margin: 0, auto;*/
+  border-radius: 50%;
+/*  border: 2px solid white;*/
+  max-width: 100px;
+  box-shadow: 2px 2px 30px grey;
+}
+
+
+
+/*body {
+  background-color: white;
+}
+
+h1 {
+  color: red;
+}
+
+p {
+  color: white;
+}
+
+#profile {
+  border-radius: 50%;
+  border: 2px solid white;
+
+}
+
+.main {
+  background-color: #37474F;
+
+}
+
+.header {
+  background-color: #1B262B;
+  padding: 14px 20px;
+  color: white;
+
+}
+
+
+
+p {
+  padding-top: 20px;
+}
+
+#profile {
+  margin-top: 15px;
+  max-width: 200px;
+}
+
+
+
+ --------media queries --------- 
+
+/* Larger than mobile 
+/*@media (min-width: 400px) {
+  #profile {
+    max-width: 50%;
+
+  }
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+/*@media (min-width: 550px) {
+   #profile {
+    min-width: 25%;
+  }
+}*/
+
+/* Larger than tablet */
+/*@media (min-width: 750px) {
+   #profile {
+    max-width: 200px;
+  }
+  body {
+    max-width: 960px;
+    margin: auto;
+  }
+}*/
+
+/* Larger than desktop */
+/*@media (min-width: 1000px) {
+  body {
+    max-width: 960px;
+    margin: auto;
+  }
+}*/
+
+/* Larger than Desktop HD */
+/*@media (min-width: 1200px) {
+  body {
+    max-width: 960px;
+  }
+  .container {
+    position: relative; width: 960px; margin: 0 auto; padding: 0;
+  }
+}*/
